@@ -6,5 +6,7 @@ services:
     build: .
     environment:
       PORT: 8000
+      USERNAME: user
+      PASSWORD: password
     ports:
       - "8000:8000"
